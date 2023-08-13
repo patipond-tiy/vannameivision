@@ -12,8 +12,8 @@ setup(
     package_data={
         'vannameivision': ['../model/DenseNet121-Triplet-ImageNet.h5', '../image/*']
     },
-    url="https://github.com/kobachii-d/VannameiVision",
-    author="Kobchai Duangrattanalert",
-    author_email="kduangrattanalert@gmail.com",
+    url="https://github.com/patipond-tiy/vannameivision",
+    author="Patipond Tiyapunjanit",
+    author_email="patipond.tiy@gmail.com",
     description="VannameiVision uses advanced state-of-the-art technologies to detect susceptible shrimp larvae with 92% accuracy. By integrating probabilistic deep learning, transfer learning, and deep metric learning, this tool has been demonstrated to perform effectively and consistently across various backgrounds, enhancing larvae detection."
 )
