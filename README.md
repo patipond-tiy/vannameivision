@@ -61,7 +61,7 @@ original = read_preprocess(path, augment=0)
 preprocessed = read_preprocess(path, augment=15)
 
 fig, (ax1, ax2, ax3, ax4) = plt.subplots(1, 4, figsize=(20, 5))
-ax1.imshow(original)
+ax1.imshow(original[0])
 ax1.set_title("Original")
 ax1.axis("off")
 ax2.imshow(preprocessed[0])
